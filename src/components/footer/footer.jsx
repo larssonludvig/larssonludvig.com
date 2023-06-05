@@ -9,15 +9,15 @@ export default function Footer() {
     const contacts = [
         {
             icon: <FaGithub />,
-            link: "github.com/canamo"
+            link: "https://github.com/canamo"
         },
         {
             icon: <FaGitlab />,
-            link: "git.cs.umu.cs/c20lln"
+            link: "https://git.cs.umu.se/c20lln"
         },
         {
             icon: <FaFacebook />,
-            link: "facebook.com/ludvig.larsson.54/"
+            link: "https://facebook.com/ludvig.larsson.54/"
         }
     ]
 
@@ -34,7 +34,7 @@ export default function Footer() {
                         </Column>
                         <Column>
                             <Row>
-                                <Column>
+                                <Column width="10rem">
                                     <p>Phone:</p>
                                     <p>Email:</p>
                                 </Column>

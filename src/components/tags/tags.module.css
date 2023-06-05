@@ -1,0 +1,18 @@
+.tagsContainer {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: var(--dark-gray);
+    color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+}
+
+.tag :global(p) {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,46 @@
+.projectsContainer {
+    background-color: var(--dark-gray);
+    height: 28rem;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    padding: 2rem 5vw;
+    display: flex;
+    gap: 1rem;
+}
+
+.innerContainer {
+    --mask: linear-gradient(to right, 
+        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 85%, 
+        rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow: hidden;
+    mask: var(--mask);
+}
+
+.item {
+    height: 24rem;
+    width: 22rem;
+    min-width: 22rem;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 2rem
+}
+
+.image {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.fade {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(transparent, white);
+    border-radius: 3rem;
+}
