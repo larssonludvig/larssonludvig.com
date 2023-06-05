@@ -1,4 +1,5 @@
 import Animation from '../../components/animation/animation'
+import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
 import Orb from '../../components/orb/orb'
 import Splitter from '../../components/splitter/splitter';
@@ -17,12 +18,16 @@ function App() {
                 <Splitter />
             </div>
             <div className="container" style={{ marginBottom: "10rem"}}>
-                <h1>
-                    Hejsan hoppsan
-                </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                <h2>Hoppsan</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <Card image={"../../public/../images/uni.webp"}>
+                    <h1>Education</h1>
+                    <p>Current Education: Masters Degree in Computing Science and Engineering</p> 
+                </Card>
+                <h1>Work Experience</h1>
+                <h1>Projects</h1>
+                <h1>Skills</h1>
+                <h1>Interests</h1>
+                <h1>References</h1>
+                <h1>Other</h1>
             </div>
             <Footer />
         </div>
