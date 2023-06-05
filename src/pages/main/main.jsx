@@ -2,21 +2,21 @@ import Animation from '../../components/animation/animation'
 import Footer from '../../components/footer/footer';
 import Orb from '../../components/orb/orb'
 import Splitter from '../../components/splitter/splitter';
-import './index.css'
+import styles from './main.module.css'
 
 function App() {
     return (
-        <div className='body'>
+        <div className={styles.body}>
             <div style={{ height: '80vh' }}>
                 <Animation >
                     <Orb color={"blue"} />
                 </Animation>
-                <div className='centered'>
-                    <div className='arrow-down' />
+                <div className={styles.centered}>
+                    <div className={styles.arrowDown} />
                 </div>
                 <Splitter />
             </div>
-            <div className='container' style={{ marginBottom: "10rem"}}>
+            <div className="container" style={{ marginBottom: "10rem"}}>
                 <h1>
                     Hejsan hoppsan
                 </h1>

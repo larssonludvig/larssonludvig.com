@@ -1,8 +1,8 @@
-import './animation.css'
+import styles from './animation.module.css'
 
 export default function Animation({ children }) {
     return (
-        <div className="animation">
+        <div className={styles.animation}>
             {children}
         </div>
     )
