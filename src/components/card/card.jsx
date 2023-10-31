@@ -1,6 +1,7 @@
 import Column from '../column/column'
 import Row from '../row/row'
 import styles from './card.module.css'
+import Header from '../header/header'
 
 /**
  * Component for displaying an image in a card
@@ -28,20 +29,23 @@ function CardImage({ image, imageLink }) {
  * @param {Function} imageLink url to navigate to when image is clicked 
  * @returns Card component
  */
-export default function Card({ children, image, leftImage, imageLink }) {
+export default function Card({ children, image, leftImage, imageLink, label }) {
     return (
-        <div className={styles.card}>
-            <Row>
-                {leftImage && image &&
-                    <CardImage image={image} imageLink={imageLink} />
-                }
-                <Column>
-                    {children}
-                </Column>
-                {image && !leftImage &&
-                    <CardImage image={image} imageLink={imageLink} />
-                }
-            </Row>
-        </div>
+        <>
+            <Header label={label} />
+            <div className={styles.card}>
+                <Row>
+                    {leftImage && image &&
+                        <CardImage image={image} imageLink={imageLink} />
+                    }
+                    <Column>
+                        {children}
+                    </Column>
+                    {image && !leftImage &&
+                        <CardImage image={image} imageLink={imageLink} />
+                    }
+                </Row>
+            </div>
+        </>
     )
 }

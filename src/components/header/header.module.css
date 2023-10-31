@@ -1,0 +1,22 @@
+.headerTag {
+    display: flex;
+}
+
+.header {
+    margin: 0;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    width: auto;
+    background-color: white;
+}
+
+.line {
+    height: 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 0.15rem solid var(--dark-gray);
+    padding: 0;
+    margin: 0;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+}
