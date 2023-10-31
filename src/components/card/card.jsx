@@ -1,7 +1,6 @@
 import Column from '../column/column'
 import Row from '../row/row'
 import styles from './card.module.css'
-import Header from '../headers/header'
 
 /**
  * Component for displaying an image in a card
@@ -31,21 +30,18 @@ function CardImage({ image, imageLink }) {
  */
 export default function Card({ children, image, leftImage, imageLink, label }) {
     return (
-        <>
-            <Header label={label} />
-            <div className={styles.card}>
-                <Row>
-                    {leftImage && image &&
-                        <CardImage image={image} imageLink={imageLink} />
-                    }
-                    <Column>
-                        {children}
-                    </Column>
-                    {image && !leftImage &&
-                        <CardImage image={image} imageLink={imageLink} />
-                    }
-                </Row>
-            </div>
-        </>
+        <div className={styles.card}>
+            <Row>
+                {leftImage && image &&
+                    <CardImage image={image} imageLink={imageLink} />
+                }
+                <Column>
+                    {children}
+                </Column>
+                {image && !leftImage &&
+                    <CardImage image={image} imageLink={imageLink} />
+                }
+            </Row>
+        </div>
     )
 }

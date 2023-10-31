@@ -6,7 +6,6 @@ coverage/
 /playwright-report/
 /playwright/.cache/
 .idea/
-.env
 build/
 *.swp
 .database-init
