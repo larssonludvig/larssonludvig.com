@@ -37,7 +37,7 @@ export default function App() {
                 </Section>
 
                 <Section label={"Projects"}>
-                    {/* <Projects /> */}
+                    
                 </Section>
 
                 <Section label={"Tools and Technologies"}>
