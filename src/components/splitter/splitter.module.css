@@ -6,7 +6,7 @@
     z-index: 1;
     position: absolute;
     background-color: black;
-    rotate: 3deg;
+    rotate: 2deg;
 }
 .splitter * {
     width: 100%;

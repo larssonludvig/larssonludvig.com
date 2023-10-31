@@ -30,7 +30,7 @@ function App() {
                 </Card>
 
                 <Header label={"Projects"} />
-                <Projects />
+                {/* <Projects /> */}
 
                 <Header label={"Tools and Technologies"} />
                 <Header label={"Other"} />                
