@@ -23,9 +23,9 @@ export default function Footer() {
 
     return (
         <>
-            <Splitter color={"var(--dark-gray)"} />
-            <footer className={styles.footer}>
-                <div className='container' style={{ marginTop: "-4rem"}}>
+            <Splitter color={"var(--dark-gray)"} flip={true} colors={["white", "var(--light-gray)", "var(--dark-gray)"]} />
+            <footer className={styles.footer} >
+                <div className='container' style={{ marginTop: "-3rem" }}>
                     <p className={styles.underline}>Contact Informtion</p>
                     <Row>
                         <Column>
