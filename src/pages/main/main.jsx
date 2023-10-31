@@ -1,7 +1,7 @@
 import Animation from '../../components/animation/animation'
 import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
-import Projects from '../../components/projects/projects';
+// import Projects from '../../components/projects/projects';
 import Splitter from '../../components/splitter/splitter';
 import Header from '../../components/header/header';
 import styles from './main.module.css'
