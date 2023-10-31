@@ -1,5 +1,7 @@
 :root {
   --dark-gray: #201d1d;
+  --gray: #3D3E40;
+  --light-gray: #E5E5E5;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -37,4 +40,6 @@ h2 {
 .container {
   width: 60vw;
   margin: 0 auto;
+  z-index: 10;
+  position: relative;
 }

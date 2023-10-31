@@ -1,10 +1,18 @@
 .splitter {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10vh 0 0 100vw;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    margin-top: -10vh;
+    width: 110vw;
+    height: 7vh;
+    margin-top: -5vh;
+    margin-left: -5vw;
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+    rotate: 3deg;
+}
+.splitter * {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
 }
