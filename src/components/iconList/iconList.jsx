@@ -8,19 +8,16 @@ import styles from './iconList.module.css'
  * @param {dict} List of icons to display containing icon and link
  * @returns IconList component
  */
-export default function IconList({ icons }) {
-
+export default function IconList({ icons, center = false }) {
     return (
-        <div className={styles.iconList}>
-            <li>
-                {icons?.map((icon, index) => {
-                    return (
-                        <ul key={index} className={styles.icon} onClick={() => window.location.assign(icon.link)}>
-                            {icon.icon}
-                        </ul>
-                    )
-                })}
-            </li>
+        <div className={styles.iconList} style={center ? { justifyContent: "center" } : {}}>
+            {icons?.map((icon, index) => {
+                return (
+                    <div key={index} className={styles.icon} style={icon.link !== "" ? { cursor: "pointer" } : {}} onClick={() => icon.link !== "" ? window.location.assign(icon.link) : console.log("No link to follow")}>
+                        {icon.icon}
+                    </div>
+                )
+            })}
         </div>
     )
 }

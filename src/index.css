@@ -1,7 +1,7 @@
 :root {
   --dark-gray: #201d1d;
   --gray: #3D3E40;
-  --light-gray: #E5E5E5;
+  --light-gray: #9c9c9c;
 }
 
 body {
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 3.5rem;
   margin-top: 0;
 }

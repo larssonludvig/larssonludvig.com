@@ -1,7 +1,7 @@
 import Column from '../column/column'
 import Row from '../row/row'
 import styles from './card.module.css'
-import Header from '../header/header'
+import Header from '../headers/header'
 
 /**
  * Component for displaying an image in a card

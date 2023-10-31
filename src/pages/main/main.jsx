@@ -3,8 +3,9 @@ import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
 // import Projects from '../../components/projects/projects';
 import Splitter from '../../components/splitter/splitter';
-import Header from '../../components/header/header';
+import Header from '../../components/headers/header';
 import styles from './main.module.css'
+import ToolsAndTechnologies from '../../components/toolsAndTechnologies/toolsAndTechnologies';
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
                 </div>
                 <Splitter height={"10vh"} />
             </div>
-            <div class="container" style={{ marginBottom: "10rem"}}>
+            <div className="container" style={{ marginBottom: "10rem"}}>
                 <Card label={"About me"} image={"images/profile-pic.png"} leftImage={true}>
                     <p>My name is Ludvig Larsson and I am a 22 year old student currently studying for a masters degree in Computing Science and Engineering at Umeå University.</p>
                 </Card>
@@ -33,6 +34,9 @@ function App() {
                 {/* <Projects /> */}
 
                 <Header label={"Tools and Technologies"} />
+                <ToolsAndTechnologies />
+
+
                 <Header label={"Other"} />                
 
             </div>
