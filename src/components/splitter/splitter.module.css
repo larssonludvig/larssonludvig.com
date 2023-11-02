@@ -2,7 +2,7 @@
     width: 110vw;
     height: 7vh;
     margin-left: -5vw;
-    margin-top: 2vh;
+    margin-top: 5vh;
     z-index: 1;
     /* position: absolute; */
     rotate: 2deg;
@@ -20,8 +20,8 @@
 .splitterContainer {
     overflow: hidden;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     z-index: 1;
     position: absolute;
-    margin-top: -7vh;
+    margin-top: -10vh;
 }

@@ -39,6 +39,7 @@ h2 {
 
 .container {
   width: 60vw;
+  max-width: 25cm;
   margin: 0 auto;
   z-index: 10;
   position: relative;
