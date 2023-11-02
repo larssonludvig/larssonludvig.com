@@ -23,19 +23,6 @@ export default function App() {
                     </Card>
                 </Section>
 
-                <Section label={"Education"}>
-                    <Card image={"images/uni.webp"} imageLink={"https://umu.se"}>
-                        <p>Ongoing: Masters Degree in Computing Science and Engineering at Umeå University</p>
-                        <p>Completed:</p>
-                    </Card>
-                </Section>
-
-                <Section label={"Work Experience"}>
-                    <Card image={"images/nipsoft.jpg"} imageLink={"https://www.nipsoft.se/"} leftImage={true}>
-                        <p>For the last 6 years, I have been working at Nipsoft as a fullstack developer inbetween school semesters. Nipsoft is a Swedish company that develops corporate software targeted towards the sale and management of subscriptions. In total, the amount of work I have done is equivalent to 48 weeks.</p>
-                    </Card>
-                </Section>
-
                 <Section label={"Projects"}>
                     
                 </Section>

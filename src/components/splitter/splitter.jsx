@@ -1,6 +1,6 @@
 import styles from './splitter.module.css';
 
-export default function Splitter({ colors = ["var(--gray)", "var(--light-gray)", "white"], flip = false }) {
+export default function Splitter({ colors = ["var(--dark-gray)", "var(--light-gray)", "white"], flip = false }) {
     if (flip) {
         colors = colors.reverse();
     }
