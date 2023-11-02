@@ -11,8 +11,8 @@
 }
 
 .icon * {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: inherit;
+    width: inherit;
 }
 
 .iconList :global(ul) {

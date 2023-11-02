@@ -40,7 +40,7 @@ export default function Animation({ numberOfOrbs = 40 }) {
     const positions = [...new Array(numberOfOrbs)].map(() => [Math.random() * 30 - 15, Math.random() * 15 - 7.5, 0]);
 
     return (
-        <Canvas flat orthographic camera={{ zoom: 100 }}>
+        <Canvas flat orthographic camera={{ zoom: 100 }} style={{ height: "95vh", width: "100%" }}>
             <color attach={"background"} args={["#0c0c0d"]} />
             <ambientLight />
             <Effects disbleGamma>

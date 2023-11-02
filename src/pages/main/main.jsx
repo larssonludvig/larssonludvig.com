@@ -10,12 +10,16 @@ export default function App() {
     return (
         <div className={styles.body}>
             <div style={{ height: "95vh" }}>
+                <div className={styles.profile}>
+                    <img src="images/profile-pic.png" alt="profile-pic" className={styles.profilePic} />
+                    <p>Hi! I'm Ludvig Larsson,<br/> a 4:th year Computer Science student at Umeå University.</p>
+                </div>
                 <Animation />
                 <div className={styles.centered} >
                     <div className={styles.arrowDown} />
                 </div>
-                <Splitter height={"10vh"} />
             </div>
+            <Splitter height={"10vh"} />
             <div className="container" style={{ marginBottom: "10rem"}}>
                 <Section label={"About me"}>
                     <Card image={"images/profile-pic.png"} leftImage={true}>

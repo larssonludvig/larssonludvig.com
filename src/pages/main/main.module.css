@@ -9,6 +9,30 @@
     align-items: center;
 }
 
+.profile {
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    top: 15%;
+    width: 25rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    max-width: 80vw;
+}
+
+.profile > img {
+    width: 25rem;
+    max-width: 80vw;
+}
+
+.profile > :global(p) {
+    background-color: var(--dark-gray);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+}
+
 .arrowDown {
     width: 0;
     height: 0;
