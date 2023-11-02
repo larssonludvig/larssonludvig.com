@@ -45,3 +45,9 @@ h2 {
   z-index: 10;
   position: relative;
 }
+
+@media all and (max-width: 768px) {
+  .container {
+      width: 90vw;
+  }
+}

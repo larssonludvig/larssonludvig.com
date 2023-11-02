@@ -28,7 +28,7 @@ export default function Footer() {
         <>
             <Splitter color={"var(--dark-gray)"} colors={["white", "var(--light-gray)", "var(--dark-gray)"]} />
             <footer className={styles.footer} >
-                <div className='container' style={{ marginTop: "-3rem" }}>
+                <div className={"container"} style={{ marginTop: "-3rem" }}>
                     <p className={styles.underline}>Contact Informtion</p>
                     <Row>
                         <Column>
@@ -36,16 +36,8 @@ export default function Footer() {
                             <IconList icons={contacts} />
                         </Column>
                         <Column>
-                            <Row>
-                                <Column width="10rem">
-                                    <p>Phone:</p>
-                                    <p>Email:</p>
-                                </Column>
-                                <Column>
-                                    <p>(+46) 0767-64 70 77</p>
-                                    <p>ludviglarsson01@live.se</p>
-                                </Column>
-                            </Row>
+                            <p>Phone: (+46) 0767-64 70 77</p>
+                            <p>Email: ludviglarsson01@live.se</p>
                         </Column>
                     </Row>
                 </div>

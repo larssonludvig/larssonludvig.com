@@ -20,7 +20,7 @@ export default function App() {
                 </div>
             </div>
             <Splitter height={"10vh"} />
-            <div className="container" style={{ marginBottom: "10rem"}}>
+            <div className={"container"} style={{ marginBottom: "10rem"}}>
                 <Section label={"About me"}>
                     <Card image={"images/profile-pic.png"} leftImage={true}>
                         <p>My name is Ludvig Larsson and I am a 22 year old student currently studying for a masters degree in Computing Science and Engineering at Umeå University.</p>
