@@ -1,6 +1,6 @@
 import SubHeader from "../headers/subHeader";
 import IconList from "../iconList/iconList";
-import { CsharpOriginal, COriginal, JavaOriginal, VscodeOriginal, VisualstudioPlain, BashOriginal, GitOriginal, Html5Original, Css3Original, JavascriptOriginal, NodejsOriginal, LatexOriginal, UnrealengineOriginal, UnityOriginal, MatlabOriginal, PythonOriginal, ReactOriginal, OpenglOriginal, PostgresqlOriginal, CplusplusOriginal  } from 'devicons-react'
+import { CsharpOriginal, COriginal, JavaOriginal, VscodeOriginal, VisualstudioPlain, BashOriginal, GitOriginal, Html5Original, Css3Original, JavascriptOriginal, NodejsOriginal, LatexOriginal, UnityOriginal, MatlabOriginal, PythonOriginal, ReactOriginal, OpenglOriginal, PostgresqlOriginal, CplusplusOriginal  } from 'devicons-react'
 import styles from './toolsAndTechnologies.module.css'
 
 export default function ToolsAndTechnologies() {
@@ -15,6 +15,11 @@ export default function ToolsAndTechnologies() {
             link: "",
             tooltip: "C"
 
+        },
+        {
+            icon: <img src="images/blazor.png" alt={"Blazor"} />,
+            link: "",
+            tooltip: "Microsoft Blazor"
         },
         {
             icon: <JavaOriginal size={"3.5rem"} />,
@@ -70,11 +75,6 @@ export default function ToolsAndTechnologies() {
         }
     ];
     const novice = [
-        {
-            icon: <UnrealengineOriginal size={"3.5rem"} />,
-            link: "",
-            tooltip: "Unreal Engine"
-        },
         {
             icon: <UnityOriginal size={"3.5rem"} />,
             link: "",
