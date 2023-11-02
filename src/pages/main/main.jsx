@@ -9,7 +9,7 @@ import Section from '../../components/section/section';
 export default function App() {
     return (
         <div className={styles.body}>
-            <div style={{ height: "95vh", overflow: "visible" }}>
+            <div style={{ height: "95vh" }}>
                 <Animation />
                 <div className={styles.centered} >
                     <div className={styles.arrowDown} />

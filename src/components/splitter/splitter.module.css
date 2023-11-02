@@ -1,13 +1,13 @@
 .splitter {
     width: 110vw;
     height: 7vh;
-    margin-top: -5vh;
     margin-left: -5vw;
+    margin-top: 2vh;
     z-index: 1;
-    position: absolute;
-    background-color: black;
+    /* position: absolute; */
     rotate: 2deg;
 }
+
 .splitter * {
     width: 100%;
     height: 100%;
@@ -15,4 +15,13 @@
     position: absolute;
     z-index: 1;
     margin-top: 1rem;
+}
+
+.splitterContainer {
+    overflow: hidden;
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+    position: absolute;
+    margin-top: -7vh;
 }
