@@ -9,15 +9,18 @@ export default function Footer() {
     const contacts = [
         {
             icon: <FaGithub />,
-            link: "https://github.com/canamo"
+            link: "https://github.com/canamo",
+            tooltip: "Github"
         },
         {
             icon: <FaGitlab />,
-            link: "https://git.cs.umu.se/c20lln"
+            link: "https://git.cs.umu.se/c20lln",
+            tooltip: "Gitlab"
         },
         {
             icon: <FaFacebook />,
-            link: "https://facebook.com/ludvig.larsson.54/"
+            link: "https://facebook.com/ludvig.larsson.54/",
+            tooltip: "Facebook"
         }
     ]
 

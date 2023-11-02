@@ -13,9 +13,15 @@ export default function IconList({ icons, center = false }) {
         <div className={styles.iconList} style={center ? { justifyContent: "center" } : {}}>
             {icons?.map((icon, index) => {
                 return (
-                    <div key={index} className={styles.icon} style={icon.link !== "" ? { cursor: "pointer" } : {}} onClick={() => icon.link !== "" ? window.location.assign(icon.link) : console.log("No link to follow")}>
-                        {icon.icon}
-                    </div>
+                    <>
+                        <div key={index} className={styles.icon} style={icon.link !== "" ? { cursor: "pointer" } : {}} onClick={() => icon.link !== "" ? window.location.assign(icon.link) : console.log("No link to follow")}>
+                            {icon.icon}
+                            {icons.tooltip !== "" ? 
+                                <span className={styles.tooltip}>{icon.tooltip}</span>
+                                : {}
+                            }
+                        </div>
+                    </>
                 )
             })}
         </div>

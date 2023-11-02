@@ -7,87 +7,108 @@ export default function ToolsAndTechnologies() {
     const experienced = [
         {
             icon: <CsharpOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "C#"
         },
         {
             icon: <COriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "C"
+
         },
         {
             icon: <JavaOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Java"
         },
         {
             icon: <VscodeOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Visual Studio Code"
         },
         {
             icon: <VisualstudioPlain size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Visual Studio"
         },
     ];
     const proficient = [
         {
             icon: <BashOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Bash"
         },
         {
             icon: <GitOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Git"
         },
         {
             icon: <Html5Original size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Html"
         },
         {
             icon: <Css3Original size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Css"
         },
         {
             icon: <JavascriptOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Javascript"
         },
         {
             icon: <NodejsOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Node.js"
         },
         {
             icon: <LatexOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "LaTeX"
         }
     ];
     const novice = [
         {
             icon: <UnrealengineOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Unreal Engine"
         },
         {
             icon: <UnityOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Unity"
         },
         {
             icon: <MatlabOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Matlab"
         },
         {
             icon: <PythonOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "Python"
         },
         {
             icon: <ReactOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "React"
         },
         {
             icon: <OpenglOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "OpenGL"
         },
         {
             icon: <PostgresqlOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "PostgreSQL"
         },
         {
             icon: <CplusplusOriginal size={"3.5rem"} />,
-            link: ""
+            link: "",
+            tooltip: "C++"
         }
     ];
 
