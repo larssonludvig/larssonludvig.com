@@ -6,20 +6,18 @@
 }
 
 .icon {
-    height: 3.5rem;
-    width: 3.5rem;
     margin: 0;
 }
 
 .icon * {
     height: inherit;
     width: inherit;
+    padding: 0 0.4rem;
 }
 
 .tooltip {
     visibility: hidden;
     position: absolute;
-    top: 50%;
     width: auto;
     height: auto;
     background-color: var(--gray);

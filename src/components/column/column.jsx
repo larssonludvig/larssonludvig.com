@@ -10,7 +10,7 @@ import styles from './column.module.css'
  */
 export default function Column({ children, size, width }) {
     return (
-        <div className={styles.column} style={{width: width ? width : size ? size : "0", height: size, flex: width ? "0" : size ? "0" : "1"}}>
+        <div className={styles.column} style={{width: width ? width : size ? size : "0", height: size, flex: width ? "0" : size ? "0" : "1", minWidth: width ? width : "20rem"}}>
             {children}
         </div>
     )

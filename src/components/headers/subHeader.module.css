@@ -5,14 +5,14 @@
 .header {
     margin: 0;
     padding: 0 1rem;
-    margin-left: 12%;
+    margin-left: 1rem;
     width: auto;
     background-color: white;
 }
 
 .line {
     height: 0;
-    width: 80%;
+    width: 100%;
     border-radius: 0.5rem;
     border: 0.15rem solid var(--light-gray);
     padding: 0;

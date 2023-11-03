@@ -4,7 +4,8 @@ import Footer from '../../components/footer/footer';
 import Splitter from '../../components/splitter/splitter';
 import styles from './main.module.css'
 import ToolsAndTechnologies from '../../components/toolsAndTechnologies/toolsAndTechnologies';
-import Section from '../../components/section/section';
+import Section from '../../components/sections/section';
+import Projects from '../../components/projects/projects';
 
 export default function App() {
     return (
@@ -21,14 +22,14 @@ export default function App() {
             </div>
             <Splitter height={"10vh"} />
             <div className={"container"} style={{ marginBottom: "10rem"}}>
-                <Section label={"About me"}>
+                <Section label={"About Me"}>
                     <Card image={"images/profile-pic.png"} leftImage={true}>
                         <p>My name is Ludvig Larsson and I am a 22 year old student currently studying for a masters degree in Computing Science and Engineering at Umeå University.</p>
                     </Card>
                 </Section>
 
                 <Section label={"Projects"}>
-                    
+                    <Projects />
                 </Section>
 
                 <Section label={"Tools and Technologies"}>

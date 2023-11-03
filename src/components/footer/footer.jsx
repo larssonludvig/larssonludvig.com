@@ -8,17 +8,17 @@ import { FaGithub, FaGitlab, FaFacebook } from 'react-icons/fa'
 export default function Footer() {
     const contacts = [
         {
-            icon: <FaGithub />,
+            icon: <FaGithub size={"2rem"} />,
             link: "https://github.com/canamo",
             tooltip: "Github"
         },
         {
-            icon: <FaGitlab />,
+            icon: <FaGitlab size={"2rem"} />,
             link: "https://git.cs.umu.se/c20lln",
             tooltip: "Gitlab"
         },
         {
-            icon: <FaFacebook />,
+            icon: <FaFacebook size={"2rem"} />,
             link: "https://facebook.com/ludvig.larsson.54/",
             tooltip: "Facebook"
         }

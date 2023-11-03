@@ -1,7 +1,6 @@
-import SubHeader from "../headers/subHeader";
 import IconList from "../iconList/iconList";
 import { CsharpOriginal, COriginal, JavaOriginal, VscodeOriginal, VisualstudioPlain, BashOriginal, GitOriginal, Html5Original, Css3Original, JavascriptOriginal, NodejsOriginal, LatexOriginal, UnityOriginal, MatlabOriginal, PythonOriginal, ReactOriginal, OpenglOriginal, PostgresqlOriginal, CplusplusOriginal  } from 'devicons-react'
-import styles from './toolsAndTechnologies.module.css'
+import SubSection from "../sections/subsection";
 
 export default function ToolsAndTechnologies() {
     const experienced = [
@@ -114,18 +113,15 @@ export default function ToolsAndTechnologies() {
 
     return (
         <>
-            <SubHeader label={"Experienced"} />
-            <div className={styles.container} >
-                <IconList icons={experienced} center={true} />
-            </div>
-            <SubHeader label={"Proficient"} />
-            <div className={styles.container} >
-                <IconList icons={proficient} center={true} />
-            </div>
-            <SubHeader label={"Novice"} />
-            <div className={styles.container} >
-                <IconList icons={novice} center={true} />
-            </div>
+            <SubSection label={"Experienced"}>
+                <IconList icons={experienced} position={"center"} />
+            </SubSection>
+            <SubSection label={"Proficient"}>
+                <IconList icons={proficient} position={"center"} />
+            </SubSection>
+            <SubSection label={"Novice"}>
+                <IconList icons={novice} position={"center"} />
+            </SubSection>
         </>
     );
 }
