@@ -1,5 +1,5 @@
 import IconList from "../iconList/iconList";
-import { CsharpOriginal, COriginal, JavaOriginal, VscodeOriginal, VisualstudioPlain, BashOriginal, GitOriginal, Html5Original, Css3Original, JavascriptOriginal, NodejsOriginal, LatexOriginal, UnityOriginal, MatlabOriginal, PythonOriginal, ReactOriginal, OpenglOriginal, PostgresqlOriginal, CplusplusOriginal  } from 'devicons-react'
+import { CsharpOriginal, COriginal, JavaOriginal, VscodeOriginal, VisualstudioPlain, BashOriginal, GitOriginal, Html5Original, Css3Original, JavascriptOriginal, NodejsOriginal, LatexOriginal, UnityOriginal, MatlabOriginal, PythonOriginal, ReactOriginal, OpenglOriginal, PostgresqlOriginal, CplusplusOriginal, DockerOriginal, DotnetcoreOriginal } from 'devicons-react'
 import SubSection from "../sections/subsection";
 
 export default function ToolsAndTechnologies() {
@@ -13,12 +13,6 @@ export default function ToolsAndTechnologies() {
             icon: <COriginal size={"3.5rem"} />,
             link: "",
             tooltip: "C"
-
-        },
-        {
-            icon: <img src="images/blazor.png" alt={"Blazor"} />,
-            link: "",
-            tooltip: "Microsoft Blazor"
         },
         {
             icon: <JavaOriginal size={"3.5rem"} />,
@@ -56,6 +50,11 @@ export default function ToolsAndTechnologies() {
             icon: <Css3Original size={"3.5rem"} />,
             link: "",
             tooltip: "Css"
+        },
+        {
+            icon: <img src="images/blazor.png" alt={"Blazor"} />,
+            link: "",
+            tooltip: "Microsoft Blazor"
         },
         {
             icon: <JavascriptOriginal size={"3.5rem"} />,
@@ -108,6 +107,26 @@ export default function ToolsAndTechnologies() {
             icon: <CplusplusOriginal size={"3.5rem"} />,
             link: "",
             tooltip: "C++"
+        },
+        {
+            icon: <DockerOriginal size={"3.5rem"} />,
+            link: "",
+            tooltip: "Docker"
+        },
+        {
+            icon: <img src="images/maui.png" alt={"Maui"} />,
+            link: "",
+            tooltip: ".net Maui"
+        },
+        {
+            icon: <img src="images/prolog.webp" alt={"Prolog"} />,
+            link: "",
+            tooltip: "Prolog"
+        },
+        {
+            icon: <DotnetcoreOriginal size={"3.5rem"} />,
+            link: "",
+            tooltip: ".net Core"
         }
     ];
 
