@@ -3,11 +3,14 @@ import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
 import Splitter from '../../components/splitter/splitter';
 import styles from './main.module.css'
-import ToolsAndTechnologies from '../../components/toolsAndTechnologies/toolsAndTechnologies';
+import { Experienced, Proficient, Novice } from "../../data/toolsandtech";
 import Section from '../../components/sections/section';
-import Projects from '../../components/projects/projects';
 import Row from '../../components/row/row';
 import Column from '../../components/column/column';
+import SubSection from '../../components/sections/subsection';
+import IconList from '../../components/iconList/iconList';
+import { Projects } from '../../data/projects';
+import ItemList from '../../components/itemList/itemList';
 
 export default function App() {
     return (
@@ -45,11 +48,21 @@ export default function App() {
                 </Section>
 
                 <Section label={"Professional Experience"}>
-
+                    <Row>
+                        <Column width={"auto"}>
+                            <p style={{ whiteSpace: "nowrap" }}>Summers 2017-2023</p>
+                        </Column>
+                        <Column>
+                            <p>Fullstack developer, total of 48 weeks</p>
+                        </Column>
+                        <Column width={"auto"}>
+                            <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft</p></a>
+                        </Column>
+                    </Row>
                 </Section>
 
                 <Section label={"Projects"}>
-                    <Projects />
+                    <ItemList items={Projects} />
                 </Section>                
 
                 <Section label={"Leadership and Volunteering"}>
@@ -100,7 +113,15 @@ export default function App() {
                 </Section>
 
                 <Section label={"Tools and Technologies"}>
-                    <ToolsAndTechnologies />
+                    <SubSection label={"Experienced"}>
+                        <IconList icons={Experienced} position={"center"} />
+                    </SubSection>
+                    <SubSection label={"Proficient"}>
+                        <IconList icons={Proficient} position={"center"} />
+                    </SubSection>
+                    <SubSection label={"Novice"}>
+                        <IconList icons={Novice} position={"center"} />
+                    </SubSection>
                 </Section>
 
                 <Section label={"Hobbies and Interests"}>
