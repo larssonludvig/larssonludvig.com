@@ -1,5 +1,4 @@
 import Animation from '../../components/animation/animation'
-import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
 import Splitter from '../../components/splitter/splitter';
 import styles from './main.module.css'
@@ -28,9 +27,7 @@ export default function App() {
             <Splitter height={"10vh"} />
             <div className={"container"} style={{ marginBottom: "10rem"}}>
                 <Section label={"About Me"}>
-                    <Card image={"images/profile-pic.png"} leftImage={true}>
-                        <p>My name is Ludvig Larsson and I am a 22 year old student currently studying for a masters degree in Computing Science and Engineering at Umeå University.</p>
-                    </Card>
+                    <p style={{ padding: "1rem" }}>Hello there! I'm Ludvig Larsson, a dedicated individual with a strong passion for computers, programming, and games. The world of coding fascinates me, and I find joy in unraveling the complexities of technology. Whether it's crafting lines of code or diving into the latest in the gaming world, I'm always eager to explore and learn.</p>
                 </Section>
 
                 <Section label={"Education"}>

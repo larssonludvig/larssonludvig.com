@@ -37,7 +37,7 @@ export default function Footer() {
                         </Column>
                         <Column>
                             <p>Phone: (+46) 0767-64 70 77</p>
-                            <p>Email: ludviglarsson01@live.se</p>
+                            <p>Email: <a href="mailto:ludviglarsson01@live.se">ludviglarsson01@live.se</a></p>
                         </Column>
                     </Row>
                 </div>
