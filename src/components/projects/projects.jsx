@@ -6,8 +6,6 @@ export default function Projects() {
         {
             name: "larssonludvig.com",
             description: "A personal website built with React, WebGL and Node.js.",
-            
-            
             img: "images/larssonludvig.png",
             icons: [
                 {
