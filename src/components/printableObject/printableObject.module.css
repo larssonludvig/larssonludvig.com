@@ -1,0 +1,9 @@
+.downloadButton {
+    position: relative;
+    z-index: 1;
+    left: 97vw;
+    top: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

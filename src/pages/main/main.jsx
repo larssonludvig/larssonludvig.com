@@ -10,6 +10,7 @@ import SubSection from '../../components/sections/subsection';
 import IconList from '../../components/iconList/iconList';
 import { Projects } from '../../data/projects';
 import ItemList from '../../components/itemList/itemList';
+import PrintReact from '../../components/printableObject/printableObject';
 
 export default function App() {
     return (
@@ -25,106 +26,109 @@ export default function App() {
                 </div>
             </div>
             <Splitter height={"10vh"} />
-            <div className={"container"} style={{ marginBottom: "10rem"}}>
-                <Section label={"About Me"}>
-                    <p style={{ padding: "1rem" }}>Hello there! I'm Ludvig Larsson, a dedicated individual with a strong passion for computers, programming, and games. The world of coding fascinates me, and I find joy in unraveling the complexities of technology. Whether it's crafting lines of code or diving into the latest in the gaming world, I'm always eager to explore and learn.</p>
-                </Section>
 
-                <Section label={"Education"}>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>2020-Ongoing</p>
-                        </Column>
-                        <Column>
-                            <a href="https://www.umu.se/utbildning/program/civilingenjorsprogrammet-i-teknisk-datavetenskap/"><p>Master of Science Programme in Computing Science and Engineering</p></a>
-                        </Column>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>Umeå University</p>
-                        </Column>
-                    </Row>
-                </Section>
+            <PrintReact>
+                <div className={"container"} style={{ marginBottom: "10rem"}}>
+                    <Section label={"About Me"}>
+                        <p style={{ padding: "1rem" }}>Hello there! I'm Ludvig Larsson, a dedicated individual with a strong passion for computers, programming, and games. The world of coding fascinates me, and I find joy in unraveling the complexities of technology. Whether it's crafting lines of code or diving into the latest in the gaming world, I'm always eager to explore and learn.</p>
+                    </Section>
 
-                <Section label={"Professional Experience"}>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>Summers 2017-2023</p>
-                        </Column>
-                        <Column>
-                            <p>Fullstack developer, total of 48 weeks</p>
-                        </Column>
-                        <Column width={"auto"}>
-                            <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft</p></a>
-                        </Column>
-                    </Row>
-                </Section>
+                    <Section label={"Education"}>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2020-Ongoing</p>
+                            </Column>
+                            <Column>
+                                <a href="https://www.umu.se/utbildning/program/civilingenjorsprogrammet-i-teknisk-datavetenskap/"><p>Master of Science Programme in Computing Science and Engineering</p></a>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>Umeå University</p>
+                            </Column>
+                        </Row>
+                    </Section>
 
-                <Section label={"Projects"}>
-                    <ItemList items={Projects} />
-                </Section>                
+                    <Section label={"Professional Experience"}>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>Summers 2017-2023</p>
+                            </Column>
+                            <Column>
+                                <p>Fullstack developer, total of 48 weeks</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft</p></a>
+                            </Column>
+                        </Row>
+                    </Section>
 
-                <Section label={"Leadership and Volunteering"}>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>2021-2022</p>
-                        </Column>
-                        <Column>
-                            <p>C-ego board position</p>
-                        </Column>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>CS-section at Umeå University</p>
-                        </Column>
-                    </Row>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>2022-2023</p>
-                        </Column>
-                        <Column>
-                            <p>Secretary board position</p>
-                        </Column>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>CS-section at Umeå University</p>
-                        </Column>
-                    </Row>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>2022-2023</p>
-                        </Column>
-                        <Column>
-                            <p>Alternate Member for the NTK Student Union Council</p>
-                        </Column>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>NTK Student Union</p>
-                        </Column>
-                    </Row>
-                    <Row>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>2021-2023</p>
-                        </Column>
-                        <Column>
-                            <p>Bar Team Manager</p>
-                        </Column>
-                        <Column width={"auto"}>
-                            <p style={{ whiteSpace: "nowrap" }}>Student Union House Origo</p>
-                        </Column>
-                    </Row>
-                </Section>
+                    <Section label={"Projects"}>
+                        <ItemList items={Projects} />
+                    </Section>                
 
-                <Section label={"Tools and Technologies"}>
-                    <SubSection label={"Experienced"}>
-                        <IconList icons={Experienced} position={"center"} />
-                    </SubSection>
-                    <SubSection label={"Proficient"}>
-                        <IconList icons={Proficient} position={"center"} />
-                    </SubSection>
-                    <SubSection label={"Novice"}>
-                        <IconList icons={Novice} position={"center"} />
-                    </SubSection>
-                </Section>
+                    <Section label={"Leadership and Volunteering"}>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2021-2022</p>
+                            </Column>
+                            <Column>
+                                <p>C-ego board position</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>CS-section at Umeå University</p>
+                            </Column>
+                        </Row>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2022-2023</p>
+                            </Column>
+                            <Column>
+                                <p>Secretary board position</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>CS-section at Umeå University</p>
+                            </Column>
+                        </Row>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2022-2023</p>
+                            </Column>
+                            <Column>
+                                <p>Alternate Member for the NTK Student Union Council</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>NTK Student Union</p>
+                            </Column>
+                        </Row>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2021-2023</p>
+                            </Column>
+                            <Column>
+                                <p>Bar Team Manager</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>Student Union House Origo</p>
+                            </Column>
+                        </Row>
+                    </Section>
 
-                <Section label={"Hobbies and Interests"}>
+                    <Section label={"Tools and Technologies"}>
+                        <SubSection label={"Experienced"}>
+                            <IconList icons={Experienced} position={"center"} />
+                        </SubSection>
+                        <SubSection label={"Proficient"}>
+                            <IconList icons={Proficient} position={"center"} />
+                        </SubSection>
+                        <SubSection label={"Novice"}>
+                            <IconList icons={Novice} position={"center"} />
+                        </SubSection>
+                    </Section>
 
-                </Section>
-            </div>
+                    <Section label={"Hobbies and Interests"}>
+
+                    </Section>
+                </div>
+            </PrintReact>
             <Footer />
         </div>
     );
