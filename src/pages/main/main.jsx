@@ -18,7 +18,7 @@ export default function App() {
             <div style={{ height: "95vh" }}>
                 <div className={styles.profile}>
                     <img src="images/profile-pic.png" alt="profile-pic" className={styles.profilePic} />
-                    <p>Hi! I'm Ludvig Larsson,<br/> a 4:th year Computer Science student at Umeå University.</p>
+                    <p>Hi! I'm Ludvig Larsson,<br/> a 5:th year Computer Science student at Umeå University.</p>
                 </div>
                 <Animation />
                 <div className={styles.centered} >

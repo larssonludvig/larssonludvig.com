@@ -9,7 +9,7 @@ export default function Footer() {
     const contacts = [
         {
             icon: <FaGithub size={"2rem"} />,
-            link: "https://github.com/canamo",
+            link: "https://github.com/larssonludvig",
             tooltip: "Github"
         },
         {

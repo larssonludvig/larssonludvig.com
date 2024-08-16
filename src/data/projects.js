@@ -8,13 +8,13 @@ export const Projects = [
         icons: [
             {
                 icon: <FaLink size={"2rem"} style={{ backgroundColor: "#fff" }} />,
-                link: "https://canamo.github.io/TheNest/",
-                tooltip: "canamo.github.io/TheNest/"
+                link: "https://larssonludvig.github.io/TheNest/",
+                tooltip: "larssonludvig.github.io/TheNest/"
             },
             {
                 icon: <FaGithub size={"2rem"} style={{ backgroundColor: "#fff" }} />,
-                link: "https://github.com/Canamo/TheNest",
-                tooltip: "github.com/Canamo/TheNest"
+                link: "https://github.com/larssonludvig/TheNest",
+                tooltip: "github.com/larssonludvig/TheNest"
             }
         ]
     },
@@ -30,8 +30,8 @@ export const Projects = [
             },
             {
                 icon: <FaGithub size={"2rem"} style={{ backgroundColor: "#fff" }} />,
-                link: "https://github.com/Canamo/larssonludvig.com",
-                tooltip: "github.com/Canamo/larssonludvig.com"
+                link: "https://github.com/larssonludvig/larssonludvig.com",
+                tooltip: "github.com/larssonludvig/larssonludvig.com"
             }
         ]
     },
