@@ -10,7 +10,7 @@ import SubSection from '../../components/sections/subsection';
 import IconList from '../../components/iconList/iconList';
 import { Projects } from '../../data/projects';
 import ItemList from '../../components/itemList/itemList';
-import PrintReact from '../../components/printableObject/printableObject';
+// import PrintReact from '../../components/printableObject/printableObject';
 
 export default function App() {
     return (
@@ -27,7 +27,7 @@ export default function App() {
             </div>
             <Splitter height={"10vh"} />
 
-            <PrintReact>
+            {/* <PrintReact> */}
                 <div className={"container"} style={{ marginBottom: "10rem"}}>
                     <Section label={"About Me"}>
                         <p style={{ padding: "1rem" }}>Hello there! I'm Ludvig Larsson, a dedicated individual with a strong passion for computers, programming, and games. The world of coding fascinates me, and I find joy in unraveling the complexities of technology. Whether it's crafting lines of code or diving into the latest in the gaming world, I'm always eager to explore and learn.</p>
@@ -50,10 +50,10 @@ export default function App() {
                     <Section label={"Professional Experience"}>
                         <Row>
                             <Column width={"auto"}>
-                                <p style={{ whiteSpace: "nowrap" }}>Summers 2017-2023</p>
+                                <p style={{ whiteSpace: "nowrap" }}>Summers 2018-2024</p>
                             </Column>
                             <Column>
-                                <p>Fullstack developer, total of 48 weeks</p>
+                                <p>Fullstack developer, total of 56 weeks</p>
                             </Column>
                             <Column width={"auto"}>
                                 <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft</p></a>
@@ -124,11 +124,11 @@ export default function App() {
                         </SubSection>
                     </Section>
 
-                    <Section label={"Hobbies and Interests"}>
+                    {/* <Section label={"Hobbies and Interests"}>
 
-                    </Section>
+                    </Section> */}
                 </div>
-            </PrintReact>
+            {/* </PrintReact> */}
             <Footer />
         </div>
     );

@@ -3,7 +3,7 @@ import Splitter from '../splitter/splitter'
 import styles from './footer.module.css'
 import Row from '../row/row'
 import Column from '../column/column' 
-import { FaGithub, FaGitlab, FaFacebook } from 'react-icons/fa'
+import { FaGithub, FaGitlab, FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
     const contacts = [
@@ -21,6 +21,11 @@ export default function Footer() {
             icon: <FaFacebook size={"2rem"} />,
             link: "https://facebook.com/ludvig.larsson.54/",
             tooltip: "Facebook"
+        },
+        {
+            icon: <FaLinkedin size={"2rem"} />,
+            link: "https://www.linkedin.com/in/larssonludvig",
+            tooltip: "LinkedIn"
         }
     ]
 
@@ -29,15 +34,11 @@ export default function Footer() {
             <Splitter color={"var(--dark-gray)"} colors={["white", "var(--light-gray)", "var(--dark-gray)"]} />
             <footer className={styles.footer} >
                 <div className={"container"} style={{ marginTop: "-3rem" }}>
-                    <p className={styles.underline}>Contact Informtion</p>
+                    {/* <p className={styles.underline}>Contact Informtion</p> */}
                     <Row>
                         <Column>
                             <p>Find me at:</p>
                             <IconList icons={contacts} />
-                        </Column>
-                        <Column>
-                            <p>Phone: (+46) 0767-64 70 77</p>
-                            <p>Email: <a href="mailto:ludviglarsson01@live.se">ludviglarsson01@live.se</a></p>
                         </Column>
                     </Row>
                 </div>
