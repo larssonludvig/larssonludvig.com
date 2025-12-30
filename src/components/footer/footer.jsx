@@ -13,11 +13,6 @@ export default function Footer() {
             tooltip: "Github"
         },
         {
-            icon: <FaGitlab size={"2rem"} />,
-            link: "https://git.cs.umu.se/c20lln",
-            tooltip: "Gitlab"
-        },
-        {
             icon: <FaFacebook size={"2rem"} />,
             link: "https://facebook.com/ludvig.larsson.54/",
             tooltip: "Facebook"
@@ -34,7 +29,6 @@ export default function Footer() {
             <Splitter color={"var(--dark-gray)"} colors={["white", "var(--light-gray)", "var(--dark-gray)"]} />
             <footer className={styles.footer} >
                 <div className={"container"} style={{ marginTop: "-3rem" }}>
-                    {/* <p className={styles.underline}>Contact Informtion</p> */}
                     <Row>
                         <Column>
                             <p>Find me at:</p>

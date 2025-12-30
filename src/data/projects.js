@@ -19,6 +19,10 @@ export const Projects = [
         ]
     },
     {
+        name: "Homelab",
+        description: "Homelab consisting of 2 servers and a Raspberry Pi running and hosting a kubernetes cluster. This is meant to be a playground and host of different projects.",
+    },
+    {
         name: "larssonludvig.com",
         description: "A personal website built with React, WebGL and Node.js.",
         img: "images/larssonludvig.png",
@@ -34,10 +38,5 @@ export const Projects = [
                 tooltip: "github.com/larssonludvig/larssonludvig.com"
             }
         ]
-    },
-    {
-        name: "Look Who's Here",
-        description: "A Twitch chat bot that allows viewers of a stream to gather points and spend them on various things.",
-        img: "images/lookwhoshere.png",
     }
 ];

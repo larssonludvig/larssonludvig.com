@@ -18,7 +18,7 @@ export default function App() {
             <div style={{ height: "95vh" }}>
                 <div className={styles.profile}>
                     <img src="images/profile-pic.png" alt="profile-pic" className={styles.profilePic} />
-                    <p>Hi! I'm Ludvig Larsson,<br/> a 5:th year Computer Science student at Umeå University.</p>
+                    <p>Hi! I'm Ludvig Larsson,<br/> IT Consultant at Omegapoint AB.</p>
                 </div>
                 <Animation />
                 <div className={styles.centered} >
@@ -36,13 +36,24 @@ export default function App() {
                     <Section label={"Education"}>
                         <Row>
                             <Column width={"auto"}>
-                                <p style={{ whiteSpace: "nowrap" }}>2020-Ongoing</p>
+                                <p style={{ whiteSpace: "nowrap" }}>2020-2025</p>
                             </Column>
                             <Column>
                                 <a href="https://www.umu.se/utbildning/program/civilingenjorsprogrammet-i-teknisk-datavetenskap/"><p>Master of Science Programme in Computing Science and Engineering</p></a>
                             </Column>
                             <Column width={"auto"}>
                                 <p style={{ whiteSpace: "nowrap" }}>Umeå University</p>
+                            </Column>
+                        </Row>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>Spring 2025</p>
+                            </Column>
+                            <Column>
+                                <p>Master's Thesis, Evaluating Zero Trust Architecture Solutions in Cloud Native Environments: A Performance Study.</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>Omegapoint Stockholm AB</p>
                             </Column>
                         </Row>
                     </Section>
@@ -56,7 +67,18 @@ export default function App() {
                                 <p>Fullstack developer, total of 56 weeks</p>
                             </Column>
                             <Column width={"auto"}>
-                                <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft</p></a>
+                                <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Nipsoft AB</p></a>
+                            </Column>
+                        </Row>
+                        <Row>
+                            <Column width={"auto"}>
+                                <p style={{ whiteSpace: "nowrap" }}>2025-Ongoing</p>
+                            </Column>
+                            <Column>
+                                <p>IT Consultant</p>
+                            </Column>
+                            <Column width={"auto"}>
+                                <a href="https://nipsoft.se"><p style={{ whiteSpace: "nowrap" }}>Omegapoint Stockholm AB</p></a>
                             </Column>
                         </Row>
                     </Section>
@@ -123,10 +145,6 @@ export default function App() {
                             <IconList icons={Novice} position={"center"} />
                         </SubSection>
                     </Section>
-
-                    {/* <Section label={"Hobbies and Interests"}>
-
-                    </Section> */}
                 </div>
             {/* </PrintReact> */}
             <Footer />
